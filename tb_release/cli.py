@@ -21,6 +21,8 @@ COMMANDS = {
                        "Strip partial updates from a Balrog release blob"),
     "on-schedule": ("reports/on-schedule/on-schedule.py",
                     "Report how often desktop releases ship on schedule"),
+    "bugzilla-queries": ("reports/bugzilla-queries/bugzilla-queries.py",
+                         "Generate a page of Bugzilla queries for releases"),
 }
 
 
